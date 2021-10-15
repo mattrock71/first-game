@@ -1,19 +1,19 @@
-let mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Player)
-mySprite.sayText("Hi class")
+let answer = 0
+let secondNumber = 0
+let firstNumber = 0
+firstNumber = 1
+secondNumber = 2
+answer = firstNumber + secondNumber
+game.splash("1 + 2 = " + answer)
+firstNumber=15
+secondNumber = 5
+answer = firstNumber - secondNumber
+game.splash ("15 - 5 = " + answer)
+firstNumber = 15
+secondNumber = 5
+answer = firstNumber / secondNumber 
+game.splash("12 / 4 = " + answer)
+firstNumber = 25
+secondNumber = 15
+answer = firstNumber + secondNumber 
+game.splash ("25 + 15 = " + answer)
